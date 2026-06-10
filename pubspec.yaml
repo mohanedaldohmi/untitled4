@@ -35,8 +35,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
-  # Web view fallback (for platforms that can't be downloaded directly)
+  # WebView for built-in browser
   webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.3.0
+  webview_flutter_wkwebview: ^3.18.0
 
 dev_dependencies:
   flutter_test:
